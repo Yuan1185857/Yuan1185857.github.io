@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Black | Vinyl | Sound One</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="header1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo button.png" width="250px"></a>
+                </div>
+                <nav>
+                    <ul id="navlink">
+                        <li><a href="store.html">Vinyl Record</a></li>
+                        <li><a href="">CD/DVD</a></li>
+                        <li><a href="">Equipments</a></li>
+                        <li><a href="">Merchandise</a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <img src="images/search.png" class="search-icon" onclick="function3()">
+                    <div id="search-drp"  class="drp-content">
+                        <input type="text" placeholder="Search..." id="input" onkeyup="filterFunction()">
+                        <a href="searchresult.html">Back to Black</a>
+                    </div>                 
+                </div>
+
+                <a href="shoppingcart.html"><img src="images/cart.png" class="cart-icon"> </a> 
+                <img src="images/menu.png" class="menu-icon" onclick="function1()"> 
+            </div>
+        </div>
+    </div>
+
+    <!----title & back-->  
+    <div class="back-menu">
+        <img src="images/back.png" class="back-icon" onclick="backfunction()">
+           <h2>Back</h2>
+    </div>
+ 
+    <!--product description--> 
+    <div class="small-container single-product">
+        <div class="row2">
+            <div class="col-2">
+                <img src="images/small-amy.jpg" class="display" width="100%";>
+                <div class="size-btn">
+                    <h4 class="pick-text">Pick Size:</h4>
+                    <button>10 inch</button>
+                    <button>12 inch</button>
+                    <button>17 inch</button>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <h1 class="prod-name">Back To Black</h1>
+                <h2 class="prod-artist">Amy Winehouse</h2> 
+                <h3 class="prod-price">A$38.45</h3>
+                             <button class="add2cart" onclick="function4()"> Add to Cart </button>                            
+                <h5 class="prod-details">Product details</h5>
+                <p class="prod-desc">This is the Platinum selling #1 UK follow-up to her platinum debut 'Frank,' which established her as one of the most exciting and challenging artists in pop music, on which Amy confirms, beyond any reasonable or unreasonable doubt, what a truly remarkable talent she is.
+                    While the girl-groups of the 60's to which she had become enthralled contained their vocals, Amy can break loose with Aretha-style vocal styling's on Just Friends or by turning the whole idea of drying out into a gospel spiritual on the stunning opener Rehab. 
+                    Amy's refined song-writing approach and fearlessness as a lyric writer has been grafted into some of the most astonishing material of her short career so far.</p>
+                <div class="genre-link">
+                    <button> R&B</button>
+                    <button> Soul</button>
+                    <button> Jazz</button>
+                </div> 
+            </div>
+                      
+   
+        </div>
+    </div>
+
+
+
+    <!--floating cart-->
+    <div class="float-cart">
+        <a href="shoppingcart.html"> <img src="images/float cart.png"></a>
+    </div>
+    
+    
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        navlink.style.maxHeight = "0px";
+
+        var search = document.getElementById("search-drp");
+
+        search.style.display = "none";
+
+    </script>
+</body>
+<footer>
+    <!--footer-->
+    <div class="footer">
+        <div class="fcon">
+            <div class="content">
+                <div class="fcol-2">
+                    <h4>About Us</h4>
+                </div> 
+                </div>
+                <div class="fcol-2">
+                    <img src="images/facebook.png" class="footer-icon" width="20px" height="30px">
+                </div>
+                <div class="fcol-2">
+                    <img src="images/instagram.png" class="footer-icon" width="30px" height="30px">
+                </div>            
+                <div class="fcol-2">
+                    <img src="images/email.png" class="footer-icon" width="40px" height="30px">
+                </div>
+            </div>       
+        </div>
+    </div>
+     
+</footer>
+</html>

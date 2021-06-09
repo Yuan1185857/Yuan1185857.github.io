@@ -1,0 +1,110 @@
+body{
+    background: #FFFCEF;
+}
+a{
+    color: cornsilk;
+}
+p{
+    color: rgb(39, 38, 38);
+}
+.header1{
+    background: #DD8E70;
+}
+.col-2 h1{
+    color: cornsilk;
+}
+.btn{
+    background: #EFB594;
+    color: #ffff;
+}
+.title{
+    background: #DDA670;
+}
+.col-3{
+    background: #ffff;
+    border: black;
+}
+.pr-desc{
+    color: #FD7474;
+}
+.footer{
+    background: #393939;
+}
+.fcol-2{
+    color: #FFFCEF;
+}
+
+/*-store-*/
+.current-page a{
+    color:#4E4E4E;
+}
+.genre-btn button{
+    background-color:#EFB594;
+    color: white;
+}
+.product{
+    background-color: white;
+}
+.product-header{
+    background-color: white;
+}
+a h3{
+    color: #000;
+}
+.product-footer h4{
+    color: #9E0505;
+}
+.drp-content a{
+    color: black;
+    background-color: white;
+}
+/*product page*/
+.col-2 .add2cart{
+    background-color: #DDA670 ;
+    color: white;
+}
+.genre-link button{
+   background-color: #EFB594 ;
+    color: white;
+}
+.small-container{
+    background-color: white;
+}
+/*shopping cart*/
+th{
+    color: white;
+    background: #393939;
+}
+h2.cart-price{
+    color: #9E0505;
+}
+a.remove{
+    color: #DD8670;
+}
+.total-price table {
+    border-top: 3px solid #ff523b;
+}
+/*confirmed page*/
+.big-container{
+    background-color: #DD8E70;
+}
+.ok h1{
+    color: white; 
+}
+.ok-back{
+    background-color: #DDA670;
+    color: white;
+}
+
+
+
+@media only screen and (max-width:996px){
+    nav ul{
+        background: #FFFF;
+    }
+
+    a{
+        color: #DD8670;
+    }
+} 
+

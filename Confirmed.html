@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Black | Vinyl | Sound One</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="header1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo button.png" width="250px"></a>
+                </div>
+                <nav>
+                    <ul id="navlink">
+                        <li><a href="store.html">Vinyl Record</a></li>
+                        <li><a href="">CD/DVD</a></li>
+                        <li><a href="">Equipments</a></li>
+                        <li><a href="">Merchandise</a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <img src="images/search.png" class="search-icon" onclick="function3()">
+                    <div id="search-drp"  class="drp-content">
+                        <input type="text" placeholder="Search..." id="input" onkeyup="filterFunction()">
+                        <a href="searchresult.html">Back to Black</a>
+                    </div>                 
+                </div>
+
+                <a href="shoppingcart.html"><img src="images/cart.png" class="cart-icon"> </a> 
+                <img src="images/menu.png" class="menu-icon" onclick="function1()"> 
+            </div>
+        </div>
+    </div>
+
+    <!--product description--> 
+    <div class="big-container">
+        <div class="ok">
+            <img src="images/ok.png" class="ok-icon">
+            <h1 class="ok-text">Order Submitted!</h1>
+            <div class="ok-btn">
+                <a href="home.html" class="ok-back">Back To Home</a>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        navlink.style.maxHeight = "0px";
+
+        var search = document.getElementById("search-drp");
+
+        search.style.display = "none";
+
+    </script>
+</body>
+<footer>
+    <!--footer-->
+    <div class="footer">
+        <div class="fcon">
+            <div class="content">
+                <div class="fcol-2">
+                    <h4>About Us</h4>
+                </div> 
+                </div>
+                <div class="fcol-2">
+                    <img src="images/facebook.png" class="footer-icon" width="20px" height="30px">
+                </div>
+                <div class="fcol-2">
+                    <img src="images/instagram.png" class="footer-icon" width="30px" height="30px">
+                </div>            
+                <div class="fcol-2">
+                    <img src="images/email.png" class="footer-icon" width="40px" height="30px">
+                </div>
+            </div>       
+        </div>
+    </div>
+     
+</footer>
+</html>

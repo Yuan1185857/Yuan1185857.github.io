@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Black | Vinyl | Sound One</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="header1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo button.png" width="250px"></a>
+                </div>
+                <nav>
+                    <ul id="navlink">
+                        <li><a href="store.html">Vinyl Record</a></li>
+                        <li><a href="">CD/DVD</a></li>
+                        <li><a href="">Equipments</a></li>
+                        <li><a href="">Merchandise</a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <img src="images/search.png" class="search-icon" onclick="function3()">
+                    <div id="search-drp"  class="drp-content">
+                        <input type="text" placeholder="Search..." id="input" onkeyup="filterFunction()">
+                        <a href="searchresult.html">Back to Black</a>
+                    </div>                 
+                </div>
+
+                <a href="shoppingcart.html"><img src="images/cart.png" class="cart-icon"> </a> 
+                <img src="images/menu.png" class="menu-icon" onclick="function1()"> 
+            </div>
+        </div>
+    </div>
+
+    <!----title & back-->  
+    <div class="back-menu">
+        <img src="images/back.png" class="back-icon" onclick="backfunction()">
+           <h2>Back</h2>
+    </div>
+ 
+    <!--Shopping Cart--> 
+    <div class="small-container cart-page">
+        <table>
+            <tbody>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>                    
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/small-amy.jpg">
+                            <div>
+                            <h1 class="cart-item">Amy Winehouse - Back To Black</h1>
+                            <h3 class="cart-size"> 10 inch</h3> 
+                            <h2 class= "cart-price">$38.45</h2>
+                            <a href="" class="remove">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="cart-details"><input type="number" value="1"></td>
+                    <td class="cart-details">$38.45</td>
+                </tr> 
+            </tbody>
+        </table> 
+    <!--total price-->                
+         <div class="total-price">
+             <table>
+                 <tr>
+                     <td class="total">Total</td>
+                     <td>$38.45</td>
+                 </tr>
+                 
+             </table>
+         </div>
+         <div class="total-price">
+             <a href="checkoutform.html" class="btn">Proceed to checkout &#8594;</a>
+         </div>
+         
+     </div>
+   
+        </div>
+    </div>
+
+
+
+    
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        navlink.style.maxHeight = "0px";
+
+        var search = document.getElementById("search-drp");
+
+        search.style.display = "none";
+
+    </script>
+</body>
+<footer>
+    <!--footer-->
+    <div class="footer">
+        <div class="fcon">
+            <div class="content">
+                <div class="fcol-2">
+                    <h4>About Us</h4>
+                </div> 
+                </div>
+                <div class="fcol-2">
+                    <img src="images/facebook.png" class="footer-icon" width="20px" height="30px">
+                </div>
+                <div class="fcol-2">
+                    <img src="images/instagram.png" class="footer-icon" width="30px" height="30px">
+                </div>            
+                <div class="fcol-2">
+                    <img src="images/email.png" class="footer-icon" width="40px" height="30px">
+                </div>
+            </div>       
+        </div>
+    </div>
+     
+</footer>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store page | Vinyl | Sound One</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="header1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo button.png" width="250px"></a>
+                </div>
+                <nav>
+                    <ul id="navlink">
+                        <li class="current-page"><a href="store.html">Vinyl Record</a></li>
+                        <li><a href="">CD/DVD</a></li>
+                        <li><a href="">Equipments</a></li>
+                        <li><a href="">Merchandise</a></li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <img src="images/search.png" class="search-icon" onclick="function3()">
+                    <div id="search-drp"  class="drp-content">
+                        <input type="text" placeholder="Search..." id="input" onkeyup="filterFunction()">
+                        <a href="searchresult.html">Back to Black</a>
+                    </div>                 
+                </div>
+
+                <a href="shoppingcart.html"><img src="images/cart.png" class="cart-icon"> </a> 
+                <img src="images/menu.png" class="menu-icon" onclick="function1()"> 
+            </div>
+        </div>
+    </div>
+
+    <!----browsing tool-->
+    <div class="featured">
+            <div class="title">
+                <h2>Vinyl Records</h2>
+            </div>
+            
+        </div>
+    <div class="topcontainer">
+        <div class="genre-btn">
+            <button onclick="function2()"> R&B</button>
+            <button> Pop</button>
+            <button> Rock</button>
+            <button> Jazz</button>
+            <button> Metal</button>
+            <div class="browse1">
+                <select>
+                    <option>Popularity</option>
+                    <option>Price</option>
+                    <option>A-Z</option>
+                    <option>Limited</option>
+                </select>
+                <select>
+                    <option>Page 1</option>
+                    <option>Page 2</option>
+                </select>
+            </div>
+
+        </div>
+        <form>
+            <div class="browse">
+                <select>
+                    <option>Popularity</option>
+                    <option>Price</option>
+                    <option>A-Z</option>
+                    <option>Limited</option>
+                </select>
+            </div>
+ 
+            </div>
+        </form>
+    </div>
+
+<!--product listing-->
+    <div class="listpage">
+        <div class="product-list contain">
+            <div class="product">
+                <div class="product-header">
+                    <a href="productpage.html"> 
+                        <img src="images/small-amy.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="productpage.html">
+                        <h3>Back to Black</h3>
+                        <p>Amy Winehouse</p>
+                    </a>
+                    <h4>A$38.45</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/small2pac.png" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>2pac's Greatest Hits 4Lp</h3>
+                        <p>2pac</p>
+                    </a>
+                    <h4>A$163.90</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/smallbts.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>Map of The Soul 7</h3>
+                        <p>BTS</p>
+                    </a>
+                    <h4>A$54.95</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/smallroy.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>Black & White Night</h3>
+                        <p>Roy Orbinson</p>
+                    </a>
+                    <h4>A$60.50</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="productpage.html"> 
+                        <img src="images/small-gencic.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="productpage.html">
+                        <h3>Dragoslava Gencic</h3>
+                        <p>Gencic</p>
+                    </a>
+                    <h4>A$38.45</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/small-alice.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>Alice In Chains</h3>
+                        <p>SAP</p>
+                    </a>
+                    <h4>A$44.00</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/small-honey.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>Flying Fonzarellis</h3>
+                        <p>Honey B</p>
+                    </a>
+                    <h4>A$22.00</h4>
+                </div>
+            </div>
+            <div id="genre-diff" class="product">
+                <div class="product-header">
+                    <a href="">
+                        <img src="images/small-ansambl.jpg" class="prod-img">   
+                    </a>
+                </div>
+                <div class="product-footer">
+                    <a href="">
+                        <h3>Ansambl Bilijana</h3>
+                        <p>Ohrid</p>
+                    </a>
+                    <h4>A$55.00</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--floating cart-->
+    <div class="float-cart">
+        <a href="shoppingcart.html"> <img src="images/float cart.png"></a>
+    </div>
+    
+    
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        navlink.style.maxHeight = "0px";
+
+        var search = document.getElementById("search-drp");
+
+        search.style.display = "none";
+
+    </script>
+</body>
+<footer>
+<!--footer-->
+<footer>
+    <!--footer-->
+    <div class="footer">
+        <div class="fcon">
+            <div class="content">
+                <div class="fcol-2">
+                    <h4>About Us</h4>
+                </div> 
+                </div>
+                <div class="fcol-2">
+                    <img src="images/facebook.png" class="footer-icon" width="20px" height="30px">
+                </div>
+                <div class="fcol-2">
+                    <img src="images/instagram.png" class="footer-icon" width="30px" height="30px">
+                </div>            
+                <div class="fcol-2">
+                    <img src="images/email.png" class="footer-icon" width="40px" height="30px">
+                </div>
+            </div>       
+        </div>
+    </div>
+     
+</footer>
+</html>

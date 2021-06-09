@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundOne | Specialist in Hard to Find Records</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="header1">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo button.png" width="250px">
+            </div>
+            <nav>
+                <ul id="navlink">
+                    <li class="page-ind"><a href="store.html">Vinyl Record</a></li>
+                    <li><a href="">CD/DVD</a></li>
+                    <li><a href="">Equipments</a></li>
+                    <li><a href="">Merchandise</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <img src="images/search.png" class="search-icon" onclick="function3()">
+                <div id="search-drp"  class="drp-content">
+                    <input type="text" placeholder="Search..." id="input" onkeyup="filterFunction()">
+                    <a href="searchresult.html">Back to Black</a>
+                </div>                 
+            </div>
+
+            <img src="images/menu.png" class="menu-icon" onclick="function1()">
+            
+        </div>
+        <div class="row">
+            <div class="col-2 upper">
+                    <h1>Specialists in hard to get titles On CD, DVD or Vinyl Record. Since 1971.</h1>
+                    <a href="store.html" class="btn">Browse Collection &#8594;</a>
+                </div>
+            <div class="col-2 upper">
+                <img src="images/deco1.png">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----featured product-->
+    <div class="featured">
+            <div class="title">
+                <h2>Featured Best Seller</h2>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="feat-title">
+                <h3>Back to Black - Amy Winehouse</h3>
+                <p class="desc">Amy Winehouse returns with her hugely anticipated sophomore album 'Back to Black!' This is the Platinum selling #1 UK follow up to her platinum debut 'Frank' which established her as one of the most exciting and challenging artist in pop music.</p>
+                <p class="pr-desc">A$38.45</p>
+                <a href="productpage.html" class="btn">More &#8594;</a>
+            </div>
+                <img src="images/amy.jpg">
+         </div>
+              
+        <div class="col-3">
+            <div class="feat-title">
+                <h3>2Pac's Greatest Hits 4LP</h3>
+                <p class="desc">2pac's Greatest Hits is a posthumous double-disc album originally released on 24th November, 1998.
+
+                    The album's non-chronological sequence focuses on the highlights of 2Pac's career.</p>
+                <p class="pr-desc">A$163.90</p>
+                <a href="" class="btn">More &#8594;</a>
+            </div>
+            <img src="images/2pac.png">
+        </div>
+        <div class="col-3">
+            <div class="feat-title">
+                <h3>BTS Map of The Soul 7</h3>
+                <p class="desc">Korean pop sensation BTS are back with their fourth installment Map Of The Soul 7. This is the Australian limited release with varied colors. This is the Australian limited release with varied colors.</p>
+                <p class="pr-desc">A$54.95</p>
+                <a href="" class="btn">More &#8594;</a>
+            </div>
+            <img src="images/bts.png">
+        </div>
+    </div>
+    
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        navlink.style.maxHeight = "0px";
+
+        var search = document.getElementById("search-drp");
+
+        search.style.display = "none";
+
+    </script>
+
+</body>
+<footer>
+<!--footer-->
+<div class="footer">
+    <div class="fcon">
+        <div class="content">
+            <div class="fcol-2">
+                <h4>About Us</h4>
+            </div> 
+            </div>
+            <div class="fcol-2">
+                <img src="images/facebook.png" class="footer-icon" width="20px" height="30px">
+            </div>
+            <div class="fcol-2">
+                <img src="images/instagram.png" class="footer-icon" width="30px" height="30px">
+            </div>            
+            <div class="fcol-2">
+                <img src="images/email.png" class="footer-icon" width="40px" height="30px">
+            </div>
+        </div>       
+    </div>
+</div>
+ 
+</footer>
+</html>
