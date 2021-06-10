@@ -96,7 +96,10 @@ a.remove{
     color: white;
 }
 
-
+/*checkout page*/
+.confirm-order a{
+    color: white;
+}
 
 @media only screen and (max-width:996px){
     nav ul{

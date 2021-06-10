@@ -385,11 +385,7 @@ td.total{
     margin-bottom: 60px;
     vertical-align: top;
 }
-.form-col input{
-    padding: 10px 150px 10px 5px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
+
 label{
     display: block;
     margin-bottom: 10px;
@@ -402,9 +398,6 @@ label{
     display: inline-block;
     margin-right: 40px;
     font-weight: normal;
-}
-.form-col h3{
-    font-weight: bold;
 }
 .form-row2{
     display: flex;
@@ -419,11 +412,8 @@ label{
 span.rev-price{
     margin-left: 120px;
     float: right;
-    color: #9E0505;
 }
 .cart-review h4{
-    font-size: 18px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 .rev-final h6{
@@ -431,29 +421,10 @@ span.rev-price{
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.rev-final{
-    font-size: 25px;
-    font-weight: bold;
-}
+
 .confirm-order{
     text-align: center;
 }
-.confirm-order a{
-    color: white;
-}
-.confirm-order .btn{ 
-    display: inline-block;
-    padding: 10px 40px;
-    margin: 20px 20px;
-    border-radius: 10px;
-    transition: 0.3s;
-    font-size: 30px;
-    box-shadow: 0px 4px 6px #00000029;
-}
-.btn.cancel{
-    background-color:#393939
-}
-
 
 
 /*responsive*/
